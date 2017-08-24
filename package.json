@@ -1,0 +1,38 @@
+{
+  "name": "clin27",
+  "version": "0.0.1",
+  "description": "library to run the clin2017 task",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "load": "node src/load"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://remkoboschker@bitbucket.org/robvanderg/clin27.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/robvanderg/clin27#readme",
+  "dependencies": {
+    "automata": "github:remkoboschker/automata",
+    "highland": "^3.0.0-beta.3",
+    "immutable": "^3.8.1",
+    "level": "^1.5.0",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "chai-immutable": "^1.6.0",
+    "del": "^2.2.2",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.7"
+  }
+}
